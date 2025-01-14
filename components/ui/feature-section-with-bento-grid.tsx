@@ -1,4 +1,7 @@
-import { Target, Mail, Bot, ChartBar, Search, Database, Users } from "lucide-react";
+'use client';
+
+import React from 'react';
+import { Target, Mail, ChartBar, Search, Database, Users, Bot } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { MarqueeDemo } from "@/components/ui/marquee.demo";
 

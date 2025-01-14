@@ -31,9 +31,15 @@ export function Testimonial({
             <Star key={i} className="w-5 h-5 fill-emerald-500 text-emerald-500" />
           ))}
         </div>
-        <blockquote className="text-neutral-200 text-sm leading-relaxed">
-          "{testimonial}"
-        </blockquote>
+        <div className="relative">
+          <div className="absolute -top-2 -left-2 w-4 h-4 text-neutral-500">
+            &ldquo;
+          </div>
+          <p className="text-sm text-neutral-300">{testimonial}</p>
+          <div className="absolute -bottom-2 -right-2 w-4 h-4 text-neutral-500">
+            &rdquo;
+          </div>
+        </div>
         <div className="flex items-center gap-4 pt-4">
           <Avatar className="h-10 w-10 border border-white/10">
             <AvatarImage src={image} />

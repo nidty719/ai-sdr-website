@@ -1,12 +1,12 @@
-'use client'
+'use client';
 
+import React from 'react';
 import { SplineScene } from "@/components/ui/splite";
-import { Card } from "@/components/ui/card"
-import { Spotlight } from "@/components/ui/spotlight"
+import { Spotlight } from "@/components/ui/spotlight";
 
 export function SplineSceneBasic() {
   return (
-    <Card className="w-full h-[500px] bg-black/[0.96] relative overflow-hidden">
+    <div className="w-full h-[500px] bg-black/[0.96] relative overflow-hidden rounded-lg border border-white/10">
       <Spotlight
         className="-top-40 left-0 md:left-60 md:-top-20"
       />
@@ -39,6 +39,6 @@ export function SplineSceneBasic() {
           />
         </div>
       </div>
-    </Card>
-  )
+    </div>
+  );
 } 

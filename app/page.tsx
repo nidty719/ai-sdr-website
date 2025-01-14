@@ -1,6 +1,5 @@
 'use client';
 
-import { motion } from 'framer-motion';
 import { SplineSceneBasic } from "@/components/ui/splite.demo";
 import { Testimonial } from "@/components/ui/testimonial-card";
 import { FeatureDemo } from "@/components/ui/feature-section-with-bento-grid.demo";

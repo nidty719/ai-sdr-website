@@ -16,7 +16,7 @@ export function TimelineDemo() {
           <div className="space-y-2">
             <h4 className="text-neutral-200 text-lg font-medium">AI-Powered ICP Analysis</h4>
             <p className="text-neutral-400 text-sm leading-relaxed">
-              Our AI analyzes your best customers to create a precise Ideal Customer Profile. We then leverage multiple data sources to build highly targeted lists of decision-makers that perfectly match your ICP criteria.
+              Our AI analyzes your best customers and builds a targeted list of decision-makers that match your ICP. We&apos;ll find the right prospects at scale.
             </p>
           </div>
           <div className="pt-4">
